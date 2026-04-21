@@ -1,0 +1,10 @@
+Address,Alias Name,Alias Type
+10.10.10.1,TestAliasName_1,IP-Softswitch
+10.10.10.2,TestAliasName_2,Router
+10.10.10.3,TestAliasName_3,Gateway
+10.10.10.4,TestAliasName_4,Internet Access Device
+10.10.10.5,TestAliasName_5,IP Phone
+10.10.10.6,TestAliasName_6,Interrogating Call Session Control Function
+10.10.10.7,TestAliasName_7,Proxy Call Session Control Function
+10.10.10.8,TestAliasName_8,Unknown Device
+10.10.10.9,TestAliasName_9,Session Border Controller

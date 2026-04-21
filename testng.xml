@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AliasNameAutomationSelectedSuite">
+    <test name="AliasNameSelectedTests">
+        <classes>
+            <class name="com.voipfuture.tests.AliasNameCrudTests"/>
+            <class name="com.voipfuture.tests.AliasNameSearchTests"/>
+            <class name="com.voipfuture.tests.AliasNameValidationTests"/>
+            <class name="com.voipfuture.tests.AliasNameImportTests"/>
+        </classes>
+    </test>
+</suite>
