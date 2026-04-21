@@ -5,9 +5,9 @@ import org.openqa.selenium.By;
 
 public class AddEditAliasPage extends BasePage {
 
-    By addressInput_selector = By.cssSelector("input[name='address'], input#address");
-    By aliasNameInput_selector = By.cssSelector("input[name='aliasName'], input#aliasName");
-    By aliasTypeDropdown_selector = By.cssSelector("select[name='aliasType'], select#aliasType");
+    By addressInput_selector = By.cssSelector("input[name='address']");
+    By aliasNameInput_selector = By.cssSelector("input[name='aliasName']");
+    By aliasTypeDropdown_selector = By.cssSelector("select[name='aliasType']");
     By saveButton_selector = By.xpath("//button[normalize-space()='Save']");
     By backButton_selector = By.xpath("//button[normalize-space()='Back']");
 

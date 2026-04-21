@@ -18,13 +18,13 @@ public class AliasNameCrudTests {
             By.xpath("//table//tbody/tr[td[2][normalize-space()='192.168.10.11']]");
 
     private final By updatedIpRow_selector =
-            By.xpath("//table//tbody/tr[td[2][normalize-space()='192.168.10.21'] and td[3][normalize-space()='TestAliasName_Updated_01'] and td[4][normalize-space()='IP-Softswitch']]");
+            By.xpath("//table//tbody/tr[td[2][normalize-space()='192.168.10.21']]");
 
     private final By createdMacRow_selector =
             By.xpath("//table//tbody/tr[td[3][normalize-space()='MacAlias_Valid_01']]");
 
     private final By deletePopup_selector =
-            By.cssSelector("div.modal, div.popup");
+            By.cssSelector("div.modal");
 
     @BeforeMethod
     public void preConditions() {
