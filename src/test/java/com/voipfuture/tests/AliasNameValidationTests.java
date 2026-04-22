@@ -20,7 +20,7 @@ public class AliasNameValidationTests {
     }
 
     @Test(dataProvider = "invalidWrongOctetCountIpData", dataProviderClass = IpAddressDataProvider.class,
-            groups = {"negative", "functional", "ip"},
+            groups = {"validation", "functional", "ip"},
             description = "4.2 Invalid IPv4: wrong number of octets")
     public void shouldRejectInvalidIpv4WithWrongNumberOfOctets(String address, String aliasName, String aliasType) {
         SoftAssert softAssert = new SoftAssert();
