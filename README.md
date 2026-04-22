@@ -60,6 +60,11 @@ src
 | `testdata/*.java` | TestNG data providers |
 | `resources/testdata/import_aliases_from_export.csv` | CSV file used for import scenario |
 
-## Notes
+## What I would extend next
 
-This project is intentionally kept at **automation design skeleton** level. Some selectors and final assertions may need adjustment once the real DOM and exact UI feedback are available. I preferred to keep the solution realistic and transparent instead of pretending that unknown implementation details are already confirmed.
+If I had more time to continue this draft, the next things I would focus on are:
+
+- clearer assertions for validation messages and UI feedback
+- duplicate and uniqueness checks for Address and Alias Name
+- broader MAC-specific validation coverage
+- more edge cases around import and export
